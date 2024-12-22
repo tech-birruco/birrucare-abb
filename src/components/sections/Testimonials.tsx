@@ -2,21 +2,21 @@ import { Quote, Star, Heart } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Ini buku yang bagus dan langka. Metodenya sangat bagus untuk membuat anak paham dengan menjelaskan gambar kata per kata dalam satu kalimat.",
+    quote: "Awalnya ragu karena harganya yang terjangkau, tapi setelah ikut program ini, saya jadi paham banget cara mendampingi anak dalam belajar komunikasi.",
     author: "Bunda Rahma",
     location: "Jakarta",
     rating: 5,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200"
   },
   {
-    quote: "Buku ini bagus banget! Anak saya yang tadinya susah nyusun kalimat, sekarang malah ketagihan belajar nyusun kalimat pakai buku ini.",
+    quote: "Program ini bener-bener eye opening! Saya jadi tau kalau selama ini ada yang kurang tepat dalam cara saya mengajari anak berkomunikasi.",
     author: "Bunda Sarah",
     location: "Bandung",
     rating: 5,
     image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=200"
   },
   {
-    quote: "Panduan videonya ngebantu banget! Saya jadi tahu cara ngajarin yang pas, anak pun jadi lebih pede buat ngomong.",
+    quote: "Materinya lengkap dan mudah dipahami. Yang paling saya suka adalah bisa langsung praktik dengan anak di rumah. Hasilnya luar biasa!",
     author: "Bunda Fatima",
     location: "Surabaya",
     rating: 5,
@@ -32,7 +32,7 @@ export default function Testimonials() {
           <div className="inline-flex items-center gap-2 bg-primary-100 text-primary-800 px-4 py-2 rounded-full mb-4">
             <span className="text-sm font-medium">Testimoni</span>
           </div>
-          <h2 className="text-3xl font-bold mb-12">Apa Kata Ayah Bunda Yang Sudah Mencoba Buku Ini?</h2>
+          <h2 className="text-3xl font-bold mb-12">Apa Kata Ayah Bunda Yang Sudah Mencoba Program Ini?</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (

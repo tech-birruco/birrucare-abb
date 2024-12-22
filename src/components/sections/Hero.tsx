@@ -26,14 +26,14 @@ export default function Hero() {
           <div className="my-8"></div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-          Percepat Kemampuan Anak{' '} <br />
-            <span className="text-primary-600">Bercerita</span>
+            3 Hari Mastering{' '} <br />
+            <span className="text-primary-600">Early Detection</span>
           </h1>
           <p className="text-xl text-gray-700 mb-8">
-          Berbasis kurikulum international, bantu anak menyusun kalimat lengkap, menceritakan hal di sekitarnya, <br />dan membangun koneksi lebih dekat dengan Ayah Bunda
+          Kenali, bantu dan dampingi anak melewati setiap tahap komunikasi <br />dengan panduan praktis dari Terapis Wicara profesional
           </p>
           <CTAButton className="bg-primary-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-primary-600">
-          Mulai Perjalanan Cerita Anak Sekarang!
+          Mulai Perjalanan Komunikasi Anak Sekarang!
           </CTAButton>
         </div>
     </header>

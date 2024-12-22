@@ -10,36 +10,36 @@ export default function Pricing() {
           </div>
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold mb-4">Spesial Hari Ini!</h2>
-            <p className="text-gray-600">Investasi terbaik untuk masa depan buah hati tercinta</p>
+            <p className="text-gray-600">Investasi ini setara dengan</p>
           </div>
           <div className="space-y-6 mb-8">
             <ul className="space-y-4">
               <li className="flex items-center bg-primary-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-primary-500 mr-3 flex-shrink-0" />
                 <div>
-                  <span className="font-semibold">Buku untuk Menstimulasi Anak</span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 180.000)</span>
+                  <span className="font-semibold">Biaya 3 Bulan Terapi</span>
+                  <span className="text-gray-500 ml-2">(Senilai Rp 4.000.000)</span>
                 </div>
               </li>
               <li className="flex items-center bg-secondary-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-secondary-500 mr-3 flex-shrink-0" />
                 <div>
-                  <span className="font-semibold">E-Book Panduan Praktis Stimulasi </span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 99.000)</span>
+                  <span className="font-semibold">Biaya 1 Jam Konsultasi</span>
+                  <span className="text-gray-500 ml-2">(Senilai Rp 500.000)</span>
                 </div>
               </li>
               <li className="flex items-center bg-accent-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-accent-500 mr-3 flex-shrink-0" />
                 <div>
-                  <span className="font-semibold">Video Tutorial Lengkap</span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 150.000)</span>
+                  <span className="font-semibold">E-Book Panduan Praktis Stimulasi</span>
+                  <span className="text-gray-500 ml-2">(Senilai Rp 400.000)</span>
                 </div>
               </li>
             </ul>
           </div>
           <div className="text-center">
-            <p className="text-gray-500 line-through mb-2">Total Nilai Rp 429.000</p>
-            <p className="text-3xl font-bold text-primary-600 mb-6">Investasi: Rp 180.000</p>
+            <p className="text-gray-500 line-through mb-2">Total Nilai Rp 4.900.000</p>
+            <p className="text-3xl font-bold text-primary-600 mb-6">Investasi: Rp 29.000</p>
             <button 
               className="bg-primary-500 text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
               onClick={() => {
@@ -47,16 +47,16 @@ export default function Pricing() {
                 if (window.fbq) {
                   // @ts-ignore
                   window.fbq('track', 'Contact', {
-                    content_name: 'Birru Play - 20 Kalimat Pertamaku',
-                    content_category: 'Buku Menyusun Kalimat',
+                    content_name: 'Birru Academy - Mastering Early Detection',
+                    content_category: 'Kuliah WhatsApp',
                     currency: 'IDR',
-                    value: 429000
+                    value: 4900000
                   });
                 }
-                window.open('https://api.whatsapp.com/send?phone=6282281920653&text=Halo%20Kak%20Saya%20Tertarik%20dengan%20Buku%20Birru%20Play%20%2220%20Kalimat%20Pertamaku%22.%0A', '_blank');
+                window.open('https://api.whatsapp.com/send?phone=6282281920653&text=Halo%20Kak%2C%20Saya%20Mau%20Ikut%20Program%203%20Days%20Mastering%20Early%20Detection', '_blank');
               }}
             >
-              Ya, Saya Mau Pesan Sekarang!
+              Ya, Saya Mau Daftar Sekarang!
             </button>
             <div className="mt-6 flex items-center justify-center gap-4 text-sm text-gray-600">
               <div className="flex items-center">

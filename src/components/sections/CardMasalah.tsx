@@ -1,15 +1,19 @@
 const problems = [
   {
-    icon: "🧩",
-    description: "Anak kesulitan menyusun kalimat lengkap?",
+    icon: "🙅‍♀️",
+    description: "Anak tidak mau meniru?",
   },
   {
     icon: "💭",
-    description: "Anak kesulitan menjawab pertanyaan sehari-hari seperti Apa, Siapa, atau Dimana?",
+    description: "Anak sering kesulitan diajak bicara dua arah?",
+  },
+  {
+    icon: "🔄",
+    description: 'Anak mengulang pertanyaan tanpa memahami maksudnya?',
   },
   {
     icon: "😵",
-    description: 'Ingin membantu anak lebih percaya diri bercerita namun bingung harus mulai dari mana?',
+    description: 'Ucapan anak belum jelas walaupun sudah berusia di atas 3 tahun?',
   }
 ];
 
@@ -21,7 +25,7 @@ export default function CardMasalah() {
           Apakah Ayah Bunda Mengalami Ini Pada Anak?
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {problems.map((problem, index) => (
             <div
               key={index}

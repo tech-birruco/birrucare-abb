@@ -1,45 +1,31 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
 
-const BestPrices = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div ref={ref}>
-    Ya, kami juga menyediakan harga spesial untuk pembelian dalam jumlah banyak.
-    <ul className="list-disc px-4">
-      <li>Lebih dari 10: <span className="line-through text-red-500">Rp 180.000</span> Rp 167.400 <span className="text-green-500">(Hemat Rp 12.600/pcs)</span></li>
-      <li>Lebih dari 50: <span className="line-through text-red-500">Rp 180.000</span> Rp 160.200 <span className="text-green-500">(Hemat Rp 19.800/pcs)</span></li>
-    </ul>
-  </div>
-));
-BestPrices.displayName = 'BestPrices';
-
 const faqs = [
   {
-    question: 'Untuk usia berapa buku ini cocok digunakan?',
-    answer: 'Buku ini dirancang khusus untuk anak usia 2-5 tahun yang sedang dalam tahap perkembangan atau mengalami masalah perkembangan bahasa bicara seperti speech delay.',
+    question: 'Apakah program ini cocok untuk anak saya?',
+    answer: 'Program ini dirancang khusus untuk anak usia 1-6 tahun yang sedang dalam tahap perkembangan atau mengalami masalah perkembangan bahasa bicara seperti speech delay.',
     icon: '👶'
   },
   {
-    question: 'Berapa lama waktu yang dibutuhkan untuk melihat hasil?',
-    answer: 'Dengan penggunaan rutin sesuai panduan, mayoritas orang tua melaporkan peningkatan signifikan dalam 2-4 minggu pertama.',
-    icon: '⏰'
+    question: 'Bagaimana cara mengakses materinya?',
+    answer: 'Materi akan diberikan di WhatsApp yang bisa diakses 24/7 sesuai waktu luang Ayah Bunda.',
+    icon: '📱'
   },
   {
-    question: 'Apakah ada garansi untuk produk ini?',
-    answer: 'Ya, kami memberikan garansi 30 hari uang kembali jika Anda tidak puas dengan produk kami.',
+    question: 'Berapa lama materi bisa di akses?',
+    answer: 'Ayah Bunda bisa mengakses materi selamanya dan bisa diulang-ulang sesuka hati.',
+    icon: '⏳'
+  },
+  {
+    question: 'Apakah ada sesi tanya jawab?',
+    answer: 'Ya, kami memberikan sesi tanya jawab langsung dengan terapis di group WhatsApp.',
+    icon: '💬'
+  },
+  {
+    question: 'Apakah ada garansi?',
+    answer: 'Ya, kami memberikan garansi 100% uang kembali dalam 7 hari jika Ayah Bunda merasa program ini tidak sesuai.',
     icon: '✨'
-  },
-  {
-    question: 'Bagaimana cara menggunakan buku ini dengan efektif?',
-    answer: 'Setiap buku dilengkapi dengan panduan lengkap dan video tutorial yang akan memandu Anda langkah demi langkah.',
-    icon: '📚'
-  },
-  {
-    question: 'Apakah ada harga spesial untuk pembelian dalam jumlah banyak?',
-    answer: <BestPrices />,
-    icon: '💰'
   }
 ];
 

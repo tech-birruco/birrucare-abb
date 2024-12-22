@@ -2,22 +2,22 @@ const solutions = [
   {
     icon: '👩‍⚕️',
     title: 'Didesign oleh Ahli',
-    description: 'Dibuat oleh Terapis Wicara profesional yang terbukti berhasil membantu jutaan anak Indonesia bicara.',
+    description: 'Materi disampaikan oleh Terapis Wicara profesional yang terbukti berhasil membantu jutaan anak Indonesia bicara.',
   },
   {
-    icon: '🖼️',
-    title: 'Visual Representatif',
-    description: 'Fitur visual yang menarik di setiap kata, bantu anak belajar lebih cepat dan seru.',
+    icon: '✅',
+    title: 'Praktis & Bertahap',
+    description: 'Dijelaskan dengan bahasa yang sederhana, mudah dipahami, dan langsung bisa diterapkan di rumah.',
   },
   {
-    icon: '📽️',
-    title: 'Panduan Lengkap',
-    description: 'Termasuk video tutorial dan panduan penggunaan buku untuk menstimulasi anak dirumah.',
+    icon: '🌱',
+    title: 'Fokus di Tahapan Komunikasi',
+    description: 'Memahami piramida bahasa: keterampilan bermain, bahasa reseptif, bahasa ekspresif, pragmatik, dan artikulasi.',
   },
   {
-    icon: '🛡️',
-    title: 'Inklusif',
-    description: 'Cocok untuk anak usia 1 tahun ke atas dan anak dengan learning diversities.',
+    icon: '⏳',
+    title: 'Hemat Waktu & Fleksibel',
+    description: 'Belajar kapan saja, di mana saja melalui WhatsApp dengan akses materi selamanya.',
   }
 ];
 
@@ -26,7 +26,7 @@ export default function Solutions() {
     <section className="py-16 bg-gradient-to-b from-blue to-secondary-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-          Apa Yang Membuat Buku Ini Berbeda?
+          Apa Yang Membuat Program Ini Berbeda?
         </h2>
 
         <div className="grid md:grid-cols-4 gap-8">

@@ -19,8 +19,6 @@ function App() {
       <Problems />
       <Solutions />
       <Benefit  />
-      <Gallery />
-      <VideoSection />
       <Specifications />
       <Testimonials />
       <Pricing />

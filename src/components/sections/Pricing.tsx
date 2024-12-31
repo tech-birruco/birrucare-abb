@@ -46,7 +46,7 @@ export default function Pricing() {
                 // @ts-ignore
                 if (window.fbq) {
                   // @ts-ignore
-                  window.fbq('track', 'Contact', {
+                  window.fbq('track', 'AddToCard', {
                     content_name: 'Birru Academy - Mastering Early Detection',
                     content_category: 'Kuliah WhatsApp',
                     currency: 'IDR',

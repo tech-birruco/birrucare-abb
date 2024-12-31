@@ -6,12 +6,6 @@ export default function Hero() {
     <header className="container mx-auto px-4 py-20 text-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-primary-50 to-accent-50 opacity-50"></div>
         <div className="relative z-10">
-          {/* <div className="flex items-center justify-center gap-2 mb-6">
-            <Heart className="w-8 h-8 text-accent-500 animate-pulse" />
-            <Star className="w-8 h-8 text-primary-500" />
-            <Sparkles className="w-8 h-8 text-secondary-500" />
-          </div> */}
-
           <div className="mt-8 flex items-center justify-center gap-2">
             <div className="flex items-center">
               <Star className="w-5 h-5 text-primary-500" />

@@ -1,7 +1,7 @@
 const solutions = [
   {
     icon: '👩‍⚕️',
-    description: 'Lulus dari jurusan Terapis Wicara dari beberapa kampus di Indonesia, bukan abal-abal atau hasil dari pelatihan.',
+    description: 'Terapis lulus dari jurusan Terapi Wicara dari beberapa kampus di Indonesia, bukan abal-abal atau hasil dari pelatihan.',
   },
   {
     icon: '📺',
@@ -9,7 +9,7 @@ const solutions = [
   },
   {
     icon: '😊',
-    description: 'Terapis komunikatif dan ramah, seperti memiliki Terapis Wicara pribadi.',
+    description: 'Terapis komunikatif dan ramah, seperti memiliki Terapis pribadi.',
   },
   {
     icon: '📝',

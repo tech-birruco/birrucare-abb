@@ -34,7 +34,7 @@ export function Specifications() {
             <span className="text-sm font-medium">Alur</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Assessment yang akan Ayah Bunda dan anak lalui di Birru Care
+            Assessment yang akan Ayah Bunda & anak lalui di Birru Care
           </h2>
         </div>
 

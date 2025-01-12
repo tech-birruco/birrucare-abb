@@ -26,7 +26,7 @@ export default function Solutions() {
     <section className="py-16 bg-gradient-to-b from-blue to-secondary-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-          Apa yang membuat Assessment & Treatment di Birru Care berbeda?
+          Apa Yang Membuat Assessment & Treatment Di Birru Care Berbeda?
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">

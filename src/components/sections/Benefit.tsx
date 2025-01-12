@@ -22,7 +22,7 @@ export default function Benefit() {
             <span className="text-sm font-medium">Manfaat</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Dengan mengikuti Assessment & Treatment <br />di Birru Care, Ayah Bunda akan
+            Dengan Mengikuti Assessment & Treatment <br />Di Birru Care, Ayah Bunda Akan
           </h2>
         </div>
 

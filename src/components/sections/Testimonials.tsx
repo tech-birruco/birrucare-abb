@@ -2,14 +2,14 @@ import { Quote, Star, Heart } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Awalnya ragu karena harganya yang terjangkau, tapi setelah ikut program ini, saya jadi paham banget cara mendampingi anak dalam belajar komunikasi.",
+    quote: "Awalnya ragu karena harganya yang terjangkau, tapi setelah ikut kelas ini, saya jadi paham banget cara mendampingi anak dalam belajar komunikasi.",
     author: "Bunda Rahma",
     location: "Jakarta",
     rating: 5,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200"
   },
   {
-    quote: "Program ini bener-bener eye opening! Saya jadi tau kalau selama ini ada yang kurang tepat dalam cara saya mengajari anak berkomunikasi.",
+    quote: "Kelas ini bener-bener eye opening! Saya jadi tau kalau selama ini ada yang kurang tepat dalam cara saya mengajari anak berkomunikasi.",
     author: "Bunda Sarah",
     location: "Bandung",
     rating: 5,

@@ -2,23 +2,23 @@ import { Quote, Star, Heart } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Awalnya ragu karena harganya yang terjangkau, tapi setelah ikut kelas ini, saya jadi paham banget cara mendampingi anak dalam belajar komunikasi.",
-    author: "Bunda Rahma",
-    location: "Jakarta",
+    quote: "Tempatnya nyaman banget buat terapi anak, terapisnya juga detail banget dalam menjelaskan proses dan tahapannya. Saya jadi lebih terbantu untuk stimulasi anak di rumah.",
+    author: "Bunda Rizka",
+    location: "Bandar Lampung",
     rating: 5,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200"
   },
   {
-    quote: "Kelas ini bener-bener eye opening! Saya jadi tau kalau selama ini ada yang kurang tepat dalam cara saya mengajari anak berkomunikasi.",
-    author: "Bunda Sarah",
-    location: "Bandung",
+    quote: "Banyak kemajuan yang terlihat pada anak kami. Awalnya, mereka tidak bisa menggerakkan tangan untuk meminta sesuatu, tetapi sekarang mereka bisa duduk dengan tenang, fokus belajar, dan memahami instruksi sederhana. Kosakata mereka juga bertambah. Kami, sebagai orang tua, juga belajar banyak.",
+    author: "Bunda Hamzah",
+    location: "Jayapura",
     rating: 5,
     image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=200"
   },
   {
-    quote: "Materinya lengkap dan mudah dipahami. Yang paling saya suka adalah bisa langsung praktik dengan anak di rumah. Hasilnya luar biasa!",
-    author: "Bunda Fatima",
-    location: "Surabaya",
+    quote: "Adminnya responsif dan informatif, dan terapisnya ramah, sabar, dan teliti dalam menangani keluhan orang tua. Tempatnya bersih dan dilengkapi dengan permainan yang membuat anak lebih rileks dan lebih mudah beradaptasi.",
+    author: "Bunda Umar",
+    location: "Banjarbaru",
     rating: 5,
     image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=200"
   }
@@ -32,7 +32,7 @@ export default function Testimonials() {
           <div className="inline-flex items-center gap-2 bg-primary-100 text-primary-800 px-4 py-2 rounded-full mb-4">
             <span className="text-sm font-medium">Testimoni</span>
           </div>
-          <h2 className="text-3xl font-bold mb-12">Apa Kata Ayah Bunda Yang Sudah Mencoba Kelas Birru Academy?</h2>
+          <h2 className="text-3xl font-bold mb-12">Apa Kata Ayah Bunda Yang Bawa Anaknya Belajar Di Birru Care?</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (

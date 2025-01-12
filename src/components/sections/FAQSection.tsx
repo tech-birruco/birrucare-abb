@@ -3,24 +3,24 @@ import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'Apakah kelas Birru Academy cocok untuk anak saya?',
-    answer: 'Kelas kami dirancang khusus untuk Ayah Bunda agar dapat: 1. Mengoptimalkan perkembangan anak usia 1-6 tahun yang sedang dalam tahap perkembangan. 2. Memahami, membantu dan mendampingi anak mengatasi masalah perkembangan bahasa bicara seperti speech delay dan masalah komunikasi lainnnya.',
-    icon: '👶'
+    question: 'Bagaimana cara belajar di Birru Care?',
+    answer: 'Pertama, Ayah Bunda mengisi form daftar dulu. Setelah itu, konfirmasi ke admin bahwa form sudah diisi. Kemudian, jadwal assessment atau pemeriksaan awal akan ditentukan pada hari dan jam yang telah disepakati oleh admin dan Ayah Bunda. Selanjutnya, jadwal belajar ditentukan berdasarkan waktu yang telah disepakati bersama.',
+    icon: '📝'
   },
   {
-    question: 'Bagaimana cara mendapatkan materinya?',
-    answer: 'Ayah Bunda bisa mengisi link pendaftaran yang akan dikirim setelah pesanan selesai. Selanjutnya, materi akan dikirim otomatis oleh sistem kami. Materi tersebut bisa Ayah Bunda akses selamanya dan diulang-ulang sesuka hati.',
-    icon: '📱'
+    question: 'Berapa lama waktu yang dibutuhkan untuk melihat progres?',
+    answer: 'Berbeda-beda tergantung pada diagnosis anak. Untuk anak dengan kondisi terlambat tanpa gangguan tertentu, proses belajar biasanya berlangsung lebih cepat, kurang lebih 3 bulan. Untuk anak dengan kondisi berat, proses belajar bisa berlangsung cukup lama. Semua tergantung pada berbagai faktor dan kondisi.',
+    icon: '📈'
   },
   {
-    question: 'Apakah ada sesi tanya jawab?',
-    answer: 'Ya, Ayah Bunda dapat bertanya langsung dengan terapis di grup chat. Terapis kami akan mengumpulkan semua pertanyaan dari Ayah Bunda, kemudian menyusun jawaban dalam satu file. Dengan begitu, Ayah Bunda tidak hanya mendapatkan jawaban, tetapi juga dapat belajar dari pengalaman dan kasus lainnya.',
-    icon: '💬'
+    question: 'Belajarnya berapa kali seminggu?',
+    answer: 'Belajarnya disesuaikan dengan kondisi anak. Untuk anak dengan kondisi ringan, minimal 2 kali seminggu, sedangkan untuk anak dengan kondisi berat, sekitar 4-5 kali seminggu.',
+    icon: '🗓️'
   },
   {
-    question: 'Apakah ada garansi untuk kelas Birru Academy?',
-    answer: 'Ya, kami memberikan garansi 100% uang kembali dalam 7 hari jika Ayah Bunda merasa kelas kami tidak sesuai.',
-    icon: '✨'
+    question: 'Metode apa yang diterapkan di Birru Care?',
+    answer: 'Banyak metode yang diterapkan di Birru Care, beberapa diantaranya adalah Verbal Behavior, Play Therapy, Modelling, Drill, Sensori Integrasi, Stimulasi Multi-Modal, dan banyak lagi. Semua metode disesuaikan dengan kondisi dan kepribadian anak.',
+    icon: '🧑‍🏫'
   }
 ];
 

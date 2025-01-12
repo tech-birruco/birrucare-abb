@@ -1,19 +1,23 @@
 const solutions = [
   {
     icon: '👩‍⚕️',
-    description: 'Materi disampaikan oleh Terapis Wicara profesional yang terbukti berhasil membantu jutaan anak Indonesia bicara.',
+    description: 'Lulus dari jurusan Terapis Wicara dari beberapa kampus di Indonesia, bukan abal-abal atau hasil dari pelatihan.',
   },
   {
-    icon: '🏡',
-    description: 'Dijelaskan dengan bahasa yang sederhana, mudah dipahami, dan langsung bisa diterapkan di rumah.',
+    icon: '📺',
+    description: 'Proses belajar bisa dilihat langsung melalui CCTV atau ikut masuk ke dalam ruangan.',
   },
   {
-    icon: '🔼',
-    description: 'Memahami piramida bahasa: keterampilan bermain, bahasa reseptif, bahasa ekspresif, pragmatik, dan artikulasi.',
+    icon: '😊',
+    description: 'Terapis komunikatif dan ramah, seperti memiliki Terapis Wicara pribadi.',
   },
   {
-    icon: '📱',
-    description: 'Belajar kapan saja, di mana saja melalui WhatsApp dengan akses materi selamanya.',
+    icon: '📝',
+    description: 'Ada Learning Report setiap 12 kali pertemuan.',
+  },
+  {
+    icon: '📘',
+    description: 'Dilengkapi dengan boardbook interaktif yang dikembangkan oleh tim ahli Birru Care untuk mendukung pembelajaran di rumah.',
   }
 ];
 
@@ -22,10 +26,10 @@ export default function Solutions() {
     <section className="py-16 bg-gradient-to-b from-blue to-secondary-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-          Apa Yang Membuat Kelas Birru Academy Berbeda?
+          Apa yang membuat Assessment & Treatment di Birru Care berbeda?
         </h2>
 
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {solutions.map((solution, index) => (
             <div
               key={index}

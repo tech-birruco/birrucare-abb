@@ -1,19 +1,23 @@
 const problems = [
   {
-    icon: "🙅‍♀️",
-    description: "Anak tidak mau meniru?",
+    icon: "📘",
+    description: "Anak belum banyak kosa kata padahal anak seusianya sudah bercerita?",
+  },
+  {
+    icon: "😡",
+    description: "Anak masih sering tantrum, karena belum bisa menyampaikan keinginan?",
   },
   {
     icon: "💭",
-    description: "Anak sering kesulitan diajak bicara dua arah?",
+    description: 'Anak belum jelas ngomongnya?',
   },
   {
-    icon: "🔄",
-    description: 'Anak mengulang pertanyaan tanpa memahami maksudnya?',
+    icon: "📖",
+    description: 'Anak sudah SD tapi belum bisa membaca dan menulis dengan benar?',
   },
   {
-    icon: "😵",
-    description: 'Ucapan anak belum jelas walaupun sudah berusia di atas 3 tahun?',
+    icon: "🗣️",
+    description: 'Anak belum bisa bercerita?',
   }
 ];
 
@@ -25,7 +29,7 @@ export default function CardMasalah() {
           Apakah Ayah Bunda Mengalami Ini Pada Anak?
         </h2>
 
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {problems.map((problem, index) => (
             <div
               key={index}

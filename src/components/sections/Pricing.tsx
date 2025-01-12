@@ -9,37 +9,30 @@ export default function Pricing() {
             Penawaran Terbaik!
           </div>
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold mb-4">Spesial Hari Ini!</h2>
-            <p className="text-gray-600">Investasi ini setara dengan</p>
+            <h2 className="text-3xl font-bold mb-4">Investasi masa depan anak sedini mungkin</h2>
+            <p className="text-gray-600">Jadilah bagian dari komunitas orang tua yang berhasil di Birru Care</p>
           </div>
           <div className="space-y-6 mb-8">
             <ul className="space-y-4">
               <li className="flex items-center bg-primary-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-primary-500 mr-3 flex-shrink-0" />
                 <div>
-                  <span className="font-semibold">Biaya 3 Bulan Terapi</span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 4.000.000)</span>
+                  <span className="font-semibold">1 Jam Offline Assessment</span>
+                  <span className="text-gray-500 ml-2">(Senilai Rp 200.000)</span>
                 </div>
               </li>
               <li className="flex items-center bg-secondary-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-secondary-500 mr-3 flex-shrink-0" />
                 <div>
-                  <span className="font-semibold">Biaya 2 Jam Assessment</span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 750.000)</span>
-                </div>
-              </li>
-              <li className="flex items-center bg-accent-50 p-4 rounded-lg">
-                <Check className="w-5 h-5 text-accent-500 mr-3 flex-shrink-0" />
-                <div>
-                  <span className="font-semibold">E-Book Panduan Praktis Stimulasi</span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 199.000)</span>
+                  <span className="font-semibold">E-Book Panduan Perkembangan Anak</span>
+                  <span className="text-gray-500 ml-2">(Senilai Rp 399.000)</span>
                 </div>
               </li>
             </ul>
           </div>
           <div className="text-center">
-            <p className="text-gray-500 line-through mb-2">Total Nilai Rp 4.949.000</p>
-            <p className="text-3xl font-bold text-primary-600 mb-6">Investasi: Rp 62.000</p>
+            <p className="text-gray-500 line-through mb-2">Total Nilai Rp 599.000</p>
+            <p className="text-3xl font-bold text-primary-600 mb-6">Investasi: Rp 200.000</p>
             <button 
               className="bg-primary-500 text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
               onClick={() => {
@@ -47,19 +40,22 @@ export default function Pricing() {
                 if (window.fbq) {
                   // @ts-ignore
                   window.fbq('track', 'AddToCard', {
-                    content_name: 'Birru Academy - Mastering Early Detection',
-                    content_category: 'Kuliah WhatsApp',
+                    content_name: 'Birru Care - Assessment Kemampuan Komunikasi & Belajar',
+                    content_category: 'Assessment',
                     currency: 'IDR',
-                    value: 4900000
+                    value: 599000
                   });
                 }
-                window.open('https://api.whatsapp.com/send?phone=6282281920653&text=Halo%20Kak%2C%20Saya%20Mau%20Ikut%20Kelas%203%20Days%20Mastering%20Early%20Detection', '_blank');
+                window.open('https://s.id/birrucare', '_blank');
               }}
             >
-              Daftar Sekarang dan Rasakan Manfaatnya!
+              Saya Mau Dibantu Sekarang!
             </button>
             <div className="mt-6 flex items-center justify-center gap-4 text-sm text-gray-600">
-              Hanya untuk 50 Pendaftar Pertama!
+              <div className="flex items-center">
+                <Heart className="w-4 h-4 text-accent-500 mr-1" />
+                <span>Pembayaran Aman</span>
+              </div>
             </div>
           </div>
         </div>

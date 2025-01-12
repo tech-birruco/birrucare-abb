@@ -13,11 +13,12 @@ export default function CTASection() {
             <Sparkles className="w-8 h-8 text-secondary-500" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Jangan Biarkan Komunikasi Anak<br />
-            <span className="text-primary-600"> Tertinggal!</span>{' '}
+            Jangan Sampai Anak {' '}
+            <span className="text-primary-600">Ditolak Sekolah</span> <br />
+            {' '} Karena Belum Bisa Komunikasi!
           </h2>
           <p className="text-xl text-gray-700 mb-8">
-            Bantu anak melewati setiap tahapan komunikasi dengan tepat dan ciptakan koneksi yang lebih kuat dengan mereka
+            Pastikan anak mendapatkan bantuan yang tepat di setiap tahapan komunikasi, dari deteksi dini hingga perencanaan belajar, dan ciptakan koneksi yang lebih kuat dengan mereka.
           </p>
           <CTAButton className="bg-primary-500 text-white px-12 py-5 rounded-full text-lg font-semibold hover:bg-primary-600 mb-8">
             Mulai Perjalanan Komunikasi Anak Sekarang!
@@ -26,10 +27,6 @@ export default function CTASection() {
             <div className="flex items-center">
               <Gift className="w-5 h-5 text-primary-500 mr-2" />
               <span>Bonus Eksklusif</span>
-            </div>
-            <div className="flex items-center">
-              <Star className="w-5 h-5 text-primary-500 mr-2" />
-              <span>Garansi 7 Hari</span>
             </div>
           </div>
         </div>

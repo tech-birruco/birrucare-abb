@@ -20,12 +20,11 @@ export default function Hero() {
           <div className="my-8"></div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Stop {' '}
-            <span className="text-primary-600">Resiko Speech Delay</span>
-            {' '} Sekarang!
+            1 Jam Offline Assessment {' '} <br/>
+            <span className="text-primary-600">Kemampuan Komunikasi & Belajar</span>
           </h1>
           <p className="text-xl text-gray-700 mb-8">
-            Kenali, bantu dan dampingi anak melewati setiap tahap komunikasi <br></br>dengan panduan praktis dari Terapis Wicara profesional hanya dalam waktu 3 hari
+            Observasi, tes Kemampuan, dan tentukan target belajar bahasa bicara anak bersama Terapis Wicara profesional
           </p>
           <CTAButton className="bg-primary-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-primary-600">
             Mulai Perjalanan Komunikasi Anak Sekarang!

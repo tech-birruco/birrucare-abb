@@ -24,22 +24,22 @@ export default function Pricing() {
               <li className="flex items-center bg-secondary-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-secondary-500 mr-3 flex-shrink-0" />
                 <div>
-                  <span className="font-semibold">Biaya 1 Jam Konsultasi</span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 500.000)</span>
+                  <span className="font-semibold">Biaya 2 Jam Assessment</span>
+                  <span className="text-gray-500 ml-2">(Senilai Rp 750.000)</span>
                 </div>
               </li>
               <li className="flex items-center bg-accent-50 p-4 rounded-lg">
                 <Check className="w-5 h-5 text-accent-500 mr-3 flex-shrink-0" />
                 <div>
                   <span className="font-semibold">E-Book Panduan Praktis Stimulasi</span>
-                  <span className="text-gray-500 ml-2">(Senilai Rp 400.000)</span>
+                  <span className="text-gray-500 ml-2">(Senilai Rp 199.000)</span>
                 </div>
               </li>
             </ul>
           </div>
           <div className="text-center">
-            <p className="text-gray-500 line-through mb-2">Total Nilai Rp 4.900.000</p>
-            <p className="text-3xl font-bold text-primary-600 mb-6">Investasi: Rp 29.000</p>
+            <p className="text-gray-500 line-through mb-2">Total Nilai Rp 4.949.000</p>
+            <p className="text-3xl font-bold text-primary-600 mb-6">Investasi: Rp 62.000</p>
             <button 
               className="bg-primary-500 text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-primary-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
               onClick={() => {
@@ -56,17 +56,10 @@ export default function Pricing() {
                 window.open('https://api.whatsapp.com/send?phone=6282281920653&text=Halo%20Kak%2C%20Saya%20Mau%20Ikut%20Program%203%20Days%20Mastering%20Early%20Detection', '_blank');
               }}
             >
-              Ya, Saya Mau Daftar Sekarang!
+              Daftar Sekarang dan Rasakan Manfaatnya!
             </button>
             <div className="mt-6 flex items-center justify-center gap-4 text-sm text-gray-600">
-              <div className="flex items-center">
-                <Star className="w-4 h-4 text-primary-500 mr-1" />
-                <span>Garansi 30 Hari</span>
-              </div>
-              <div className="flex items-center">
-                <Heart className="w-4 h-4 text-accent-500 mr-1" />
-                <span>Pembayaran Aman</span>
-              </div>
+              Hanya untuk 50 Pendaftar Pertama!
             </div>
           </div>
         </div>

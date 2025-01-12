@@ -29,7 +29,7 @@ export default function CTASection() {
             </div>
             <div className="flex items-center">
               <Star className="w-5 h-5 text-primary-500 mr-2" />
-              <span>Garansi 30 Hari</span>
+              <span>Garansi 7 Hari</span>
             </div>
           </div>
         </div>

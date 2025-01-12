@@ -32,7 +32,7 @@ export default function Testimonials() {
           <div className="inline-flex items-center gap-2 bg-primary-100 text-primary-800 px-4 py-2 rounded-full mb-4">
             <span className="text-sm font-medium">Testimoni</span>
           </div>
-          <h2 className="text-3xl font-bold mb-12">Apa Kata Ayah Bunda Yang Sudah Mencoba Program Ini?</h2>
+          <h2 className="text-3xl font-bold mb-12">Apa Kata Ayah Bunda Yang Sudah Mencoba Kelas Birru Academy?</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (

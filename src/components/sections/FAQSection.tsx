@@ -3,28 +3,23 @@ import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'Apakah program ini cocok untuk anak saya?',
-    answer: 'Program ini dirancang khusus untuk anak usia 1-6 tahun yang sedang dalam tahap perkembangan atau mengalami masalah perkembangan bahasa bicara seperti speech delay.',
+    question: 'Apakah kelas Birru Academy cocok untuk anak saya?',
+    answer: 'Kelas kami dirancang khusus untuk Ayah Bunda agar dapat: 1. Mengoptimalkan perkembangan anak usia 1-6 tahun yang sedang dalam tahap perkembangan. 2. Memahami, membantu dan mendampingi anak mengatasi masalah perkembangan bahasa bicara seperti speech delay dan masalah komunikasi lainnnya.',
     icon: '👶'
   },
   {
-    question: 'Bagaimana cara mengakses materinya?',
-    answer: 'Materi akan diberikan di WhatsApp yang bisa diakses 24/7 sesuai waktu luang Ayah Bunda.',
+    question: 'Bagaimana cara mendapatkan materinya?',
+    answer: 'Ayah Bunda bisa mengisi link pendaftaran yang akan dikirim setelah pesanan selesai. Selanjutnya, materi akan dikirim otomatis oleh sistem kami. Materi tersebut bisa Ayah Bunda akses selamanya dan diulang-ulang sesuka hati.',
     icon: '📱'
   },
   {
-    question: 'Berapa lama materi bisa di akses?',
-    answer: 'Ayah Bunda bisa mengakses materi selamanya dan bisa diulang-ulang sesuka hati.',
-    icon: '⏳'
-  },
-  {
     question: 'Apakah ada sesi tanya jawab?',
-    answer: 'Ya, kami memberikan sesi tanya jawab langsung dengan terapis di group WhatsApp.',
+    answer: 'Ya, Ayah Bunda dapat bertanya langsung dengan terapis di grup chat. Terapis kami akan mengumpulkan semua pertanyaan dari Ayah Bunda, kemudian menyusun jawaban dalam satu file. Dengan begitu, Ayah Bunda tidak hanya mendapatkan jawaban, tetapi juga dapat belajar dari pengalaman dan kasus lainnya.',
     icon: '💬'
   },
   {
-    question: 'Apakah ada garansi?',
-    answer: 'Ya, kami memberikan garansi 100% uang kembali dalam 7 hari jika Ayah Bunda merasa program ini tidak sesuai.',
+    question: 'Apakah ada garansi untuk kelas Birru Academy?',
+    answer: 'Ya, kami memberikan garansi 100% uang kembali dalam 7 hari jika Ayah Bunda merasa kelas kami tidak sesuai.',
     icon: '✨'
   }
 ];

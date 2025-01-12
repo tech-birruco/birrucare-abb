@@ -1,22 +1,18 @@
 const solutions = [
   {
     icon: '👩‍⚕️',
-    title: 'Didesign oleh Ahli',
     description: 'Materi disampaikan oleh Terapis Wicara profesional yang terbukti berhasil membantu jutaan anak Indonesia bicara.',
   },
   {
-    icon: '✅',
-    title: 'Praktis & Bertahap',
+    icon: '🏡',
     description: 'Dijelaskan dengan bahasa yang sederhana, mudah dipahami, dan langsung bisa diterapkan di rumah.',
   },
   {
-    icon: '🌱',
-    title: 'Fokus di Tahapan Komunikasi',
+    icon: '🔼',
     description: 'Memahami piramida bahasa: keterampilan bermain, bahasa reseptif, bahasa ekspresif, pragmatik, dan artikulasi.',
   },
   {
-    icon: '⏳',
-    title: 'Hemat Waktu & Fleksibel',
+    icon: '📱',
     description: 'Belajar kapan saja, di mana saja melalui WhatsApp dengan akses materi selamanya.',
   }
 ];
@@ -26,7 +22,7 @@ export default function Solutions() {
     <section className="py-16 bg-gradient-to-b from-blue to-secondary-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-          Apa Yang Membuat Program Ini Berbeda?
+          Apa Yang Membuat Kelas Birru Academy Berbeda?
         </h2>
 
         <div className="grid md:grid-cols-4 gap-8">

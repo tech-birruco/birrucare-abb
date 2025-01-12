@@ -39,7 +39,7 @@ export default function Problems() {
         </div>
 
         <p className="text-center text-lg font-medium text-gray-700 mt-12">
-          Selamat! Ayah Bunda sudah mengusahakan yang terbaik dan sampai di halaman ini
+          Selamat! Ayah Bunda sudah menemukan solusinya di halaman ini
         </p>
       </div>
     </section>

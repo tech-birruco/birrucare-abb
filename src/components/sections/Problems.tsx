@@ -5,11 +5,11 @@ const problems = [
   },
   {
     icon: '🧠',
-    description: '1 dari 5 anak mengalami speech delay, mempengaruhi kepercayaan diri dan kemampuan komunikasi.'
+    description: '20% anak mengalami speech delay, mempengaruhi kepercayaan diri dan kemampuan komunikasi.'
   },
   {
     icon: '📖',
-    description: '1 dari 3 anak kesulitan dalam belajar, mempengaruhi kemampuan akademis dan sosial.'
+    description: '75% anak kesulitan dalam belajar, mempengaruhi kemampuan akademis dan sosial.'
   }
 ];
 

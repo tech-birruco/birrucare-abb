@@ -46,7 +46,7 @@ export default function Pricing() {
                     value: 599000
                   });
                 }
-                window.open('https://s.id/birrucare', '_blank');
+                window.open('https://s.id/birruco', '_blank');
               }}
             >
               Saya Mau Dibantu Sekarang!
